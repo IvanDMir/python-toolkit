@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Backups generados por los scripts
+*.tar.gz
+
+
 # C extensions
 *.so
 
