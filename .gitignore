@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 
 # Backups generados por los scripts
+backups/
+backup.log
 *.tar.gz
 
 
