@@ -8,6 +8,10 @@ backups/
 backup.log
 *.tar.gz
 
+#Archivos de configuración de Visual Studio Code
+.vscode/
+
+
 
 # C extensions
 *.so
