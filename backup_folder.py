@@ -53,8 +53,8 @@ def create_backup(source, backup_dir, log_path):
 
     def exclude(tarinfo):
         archive_parts = Path(tarinfo.name).parts
-        if ".venv" in archive_parts or "__pycache__" in archive_parts:
-            return None
+        #if ".venv" in archive_parts or "__pycache__" in archive_parts:
+         #   return None
 
         relative_parts = archive_parts
         if archive_parts and archive_parts[0] == source.name:
